@@ -36,4 +36,4 @@ Eliminación de outlayers (Lo de eliminar los datos erróneos): Alguien mencion�
 
 Cálculo de vorticidad:
 
-$$\omega_{z} = \frac{\partial v}{\partial x} - \frac{\partial u}{\partial y}$$. No saben como calcularlo ajajaaja
+$$\omega_{z} = \frac{\partial v}{\partial x} - \frac{\partial u}{\partial y}$$ No saben como calcularlo ajajaaja
