@@ -4,7 +4,8 @@
 
 ```vel = np.linalg.norm([u_prom, v_prom], axis=0)``` donde ```u_prom = mean_u_t = u_array.mean(axis=(0,1))``` y ```v_prom = mean_v_t = v_array.mean(axis=(0,1))```. Esta velocidad se usará para la transformada de Fourier.
 
-# Transofrmada de Fourier
+Transofrmada de Fourier:
+
 Es necesario que sea en 1D (en un punto en el espacio, no sirve matricialmente). Usar la velocidad total (```vel```)
 La amplitud sería la energía del espectro
 
