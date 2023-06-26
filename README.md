@@ -13,7 +13,7 @@ $t = \frac{l'}{u'}$: Tiempo característico = longitud característica / Velocid
 $k = \frac{2\pi}{l'}$: Longitud de onda característica
 $\frac{2\pi}{\eta}$: Longitud de onda de los esfuerzos viscosos ($\eta$: Escalas de Kolmogorov)
 
-```np.correlate(u_prom, v_prom, "full")``` Calcular la autocorrelación (En la ayudantía lo pusieron con las velocidades promedio, averiguar si realmente es así o no, porque debiese ser con las prima)
+```np.correlate(u_prom, v_prom, "full")``` Calcular la correlación (En la ayudantía lo pusieron con las velocidades promedio, averiguar si realmente es así o no, porque debiese ser con las prima)
 
 Forma matricial: Encontrar TKE promedio (en todo el tiempo) en cada punto y hacer un mapa de calor (averiguar sobre mapas de calor en matplotlib)
 Forma 1D: En cada instante de tiempo, calcular el TKE y graficarlo (energía vs tiempo)
@@ -21,7 +21,7 @@ Forma 1D: En cada instante de tiempo, calcular el TKE y graficarlo (energía vs 
 
 Eliminación de outliers (Lo de eliminar los datos erróneos): Alguien mencionó algo sobre el IQR y la minería de datos y un 1.5. Hay que buscar una cita, independientemente de lo efectiva que sea muy buena o no. Es algo relacionado con Machine Learning.
 
+# Por corregir:
+1) Ver lo de la transformada de Fourier, sale un espectro de energía raro y bajo. Igual tiene sentido porque estamos con un número de Reynolds bien bajo en comparación a un flujo turbulento, y un flujo laminar posee espectro de energía vacío.
 
-Cálculo de vorticidad:
-
-$$\omega_{z} = \frac{\partial v}{\partial x} - \frac{\partial u}{\partial y}$$ No saben como calcularlo ajajaaja
+2) La correlación calculada tiene sentido. Es lo que mencionó el profe de el "producto punto desplazado" entre dos vectores. Entonces, tiene sentido que haya 2n-1 (o un valor de esa magnitud) del resultado de la correlación. Hay que saber interpretarlo eso sí.
