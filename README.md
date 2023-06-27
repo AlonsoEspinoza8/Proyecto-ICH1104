@@ -26,3 +26,7 @@ Eliminación de outliers (Lo de eliminar los datos erróneos): Alguien mencionó
 1) Ver lo de la transformada de Fourier, sale un espectro de energía raro y bajo. Igual tiene sentido porque estamos con un número de Reynolds bien bajo en comparación a un flujo turbulento, y un flujo laminar posee espectro de energía vacío.
 
 2) La correlación calculada tiene sentido. Es lo que mencionó el profe de el "producto punto desplazado" entre dos vectores. Entonces, tiene sentido que haya 2n-1 (o un valor de esa magnitud) del resultado de la correlación. Hay que saber interpretarlo eso sí.
+
+# Fuentes de información:
+
+https://repositorio.uchile.cl/bitstream/handle/2250/173049/Estudio-num%C3%A9rico-mediante-Large-Eddy-Simulation-de-la-turbulencia-en-canales.pdf?sequence=1&isAllowed=y
