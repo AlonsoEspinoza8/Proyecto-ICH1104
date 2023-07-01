@@ -1,6 +1,6 @@
 # Proyecto-ICH1104 Grupo 13
 #### Integrantes:
-Fernando Bittelman
-Alonso Espinoza
-Sebastián Fuenzalida
-Fernanda Joustra
+<br> Fernando Bittelman
+<br> Alonso Espinoza
+<br> Sebastián Fuenzalida
+<br> Fernanda Joustra
